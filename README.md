@@ -1,70 +1,57 @@
-GANS - Assignment 3
-====================
+Generative Adversarial Networks — Image Synthesis
+==================================================
 
-Short description
------------------
-
-GANs assignment 3 — Jupyter notebooks with experiments and results for Generative Adversarial Networks (GANs).
+Implementation and training experiments for Generative Adversarial Networks (GANs): data pipeline, model architecture, training loop, and generated-sample visualization.
 
 About
 -----
 
-This repository contains the notebooks and supporting artifacts for Assignment 3 focusing on GANs. The notebooks demonstrate data preprocessing, model definitions, training loops, hyperparameter experiments, and visualization of generated samples and training metrics.
+This repository contains notebooks demonstrating data preprocessing, model definitions, training loops, hyperparameter experiments, and visualization of generated samples and training metrics for GAN-based image synthesis.
 
 Included files
 --------------
 
-- `gen-ai-assignment-3-ques-01.ipynb` — Notebook for question 1, includes problem statement, approach, and results.
-- `gen-ai-assignment-3.2.ipynb` — Main experiment notebook with model training and sample generation.
-- `gen-assgnment-3.2.ipynb` — Duplicate/alternate notebook variant with other experiments or checkpoints.
+- `gen-ai-assignment-3-ques-01.ipynb` — problem statement, approach, and results for the core GAN implementation.
+- `gen-ai-assignment-3.2.ipynb` — main experiment notebook with model training and sample generation.
+- `gen-assgnment-3.2.ipynb` — alternate experiment notebook with additional hyperparameter runs and checkpoints.
 
 Getting started
----------------
+----------------
 
-1. Clone the repository or download the files.
-2. Create and activate a Python virtual environment (Windows example):
+Clone the repository or download the files.
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
+Create and activate a Python virtual environment (Windows example):
 
-3. Install common dependencies (adjust versions as needed):
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1
 
-```powershell
-pip install numpy matplotlib jupyterlab notebook torch torchvision tensorflow scikit-learn tqdm
-```
+Install common dependencies (adjust versions as needed):
 
-4. Start JupyterLab or Jupyter Notebook and open the notebooks:
+    pip install numpy matplotlib jupyterlab notebook torch torchvision tensorflow scikit-learn tqdm
 
-```powershell
-jupyter lab
-```
+Start JupyterLab or Jupyter Notebook and open the notebooks:
+
+    jupyter lab
 
 Notes
 -----
 
-- Hardware: Training GANs can be slow on CPU — a GPU with CUDA is recommended for full experiments.
-- Data: If a notebook expects local datasets, ensure the dataset files are placed in the same folder or update the paths in the notebook.
+- Hardware: training GANs can be slow on CPU — a GPU with CUDA is recommended for full experiments.
+- Data: if a notebook expects local datasets, ensure the dataset files are placed in the same folder or update the paths in the notebook.
 
 Suggested workflow
-------------------
+-------------------
 
-1. Open `gen-ai-assignment-3-ques-01.ipynb` to review the task and approach.
-2. Run `gen-ai-assignment-3.2.ipynb` (or the alternative `gen-assgnment-3.2.ipynb`) cell-by-cell, updating dataset paths if necessary.
+1. Open `gen-ai-assignment-3-ques-01.ipynb` to review the core GAN implementation and approach.
+2. Run `gen-ai-assignment-3.2.ipynb` (or the alternate `gen-assgnment-3.2.ipynb`) cell-by-cell, updating dataset paths if necessary.
 3. Inspect generated images and logs; tweak hyperparameters and re-run training cells to reproduce experiments.
-
-Acknowledgments
----------------
-
-This work is part of an academic assignment on GANs. If you reuse or adapt parts of this repository, please cite any external sources or libraries used.
 
 License
 -------
 
-No license specified. Add a LICENSE file (for example, MIT) if you want to grant reuse rights.
+MIT License — see `LICENSE`.
 
-Contact
--------
+Author
+------
 
-Repository owner: AyeshaMudassar20
+Ayesha Mudassar — [github.com/AyeshaMudassar20](https://github.com/AyeshaMudassar20)
